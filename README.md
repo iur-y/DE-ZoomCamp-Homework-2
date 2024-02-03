@@ -1,9 +1,5 @@
-## 🤔 What is it?
+# What is this repository?
+* My answers for the questions of the first module of a Data Engineering course, which you can find [here](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main)
+* To quickstart, the base repository was cloned from [Mage](https://docs.mage.ai/introduction/overview)
+* The base repository can be found [here](https://github.com/mage-ai/compose-quickstart.git)
 
-This is a Docker Compose template for getting started with a new Mage project.
-
-## 🙋‍♂️ Why did you create it?
-
-We created this template for users to have an easy way to deploy a project using Docker.
-
-Using Docker Compose allows editors to easily add their own images or modify the Mage image to their liking. 
