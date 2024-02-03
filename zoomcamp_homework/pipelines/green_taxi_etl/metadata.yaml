@@ -2,7 +2,8 @@ blocks:
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
-  downstream_blocks: []
+  downstream_blocks:
+  - transform_2020_green_taxi
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -14,6 +15,22 @@ blocks:
   type: data_loader
   upstream_blocks: []
   uuid: load_2020_green_taxi
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_2020_green_taxi
+  retry_config: null
+  status: updated
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_2020_green_taxi
+  uuid: transform_2020_green_taxi
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
@@ -35,7 +52,7 @@ settings:
 spark_config: {}
 tags: []
 type: python
-updated_at: '2024-02-03 17:12:52'
+updated_at: '2024-02-03 17:57:13'
 uuid: green_taxi_etl
 variables_dir: /home/src/mage_data/zoomcamp_homework
 widgets: []
