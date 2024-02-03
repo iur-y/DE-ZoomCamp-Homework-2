@@ -11,7 +11,7 @@ Once the dataset is loaded, what's the shape of the data?
 * 544,898 rows x 18 columns
 * 544,898 rows x 20 columns
 * 133,744 rows x 20 columns
-* 
+
 ### Answer: `266,855 rows x 20 columns`
 
 ## Question 2. Data Transformation
